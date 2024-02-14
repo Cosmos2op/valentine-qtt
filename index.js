@@ -136,7 +136,7 @@ function showScore(){
         quesElement.style.color="white";
     }else{
         const video = document.createElement("video");
-        video.src = "valentine.mp4";
+        video.src = "Images/valentine.mp4";
         video.classList.add("score-video");
         video.autoplay = true;
         video.loop = true;
